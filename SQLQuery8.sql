@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [empleados]
+      ,[nombre]
+	  ,[telefono]
+      ,[sexo]
+      ,[fecha]
+      ,[cedula]
+      ,[direccion]
+      ,[cargo]
+  FROM [nombre_basededatos].[dbo].[Table_1 empleados]
